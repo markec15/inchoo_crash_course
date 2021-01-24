@@ -1,0 +1,143 @@
+.first {
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.first-item {
+    border-top: solid;
+    border-color: grey;
+    display: flex;
+    border-radius: 25px;
+}
+
+.item1 {
+    display: flex;
+}
+
+.second {
+    width: 150px;
+    height: auto;
+    padding: 20px;
+}
+
+.second-item {
+    border-top: solid;
+    border-color: grey;
+    display: flex;
+    border-radius: 25px;
+}
+
+.third {
+    width: 150px;
+    height: auto;
+    padding: 20px;
+}
+
+.third-item {
+    border-top: solid;
+    border-color: grey;
+    display: flex;
+    border-bottom: solid;
+    border-color: grey;
+    border-radius: 25px;
+}
+
+.myCart {
+    margin-left: 20px;
+}
+
+.dropbtn {
+    margin-top: 20px;
+    margin-left: 1800px;
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-style: solid;
+    z-index: 0;
+    font-size: 20px;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: white;
+    background-color: lightcoral;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 1200px;
+    width: 600px;
+    border-radius: 25px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+.edit {
+    padding: 20px;
+    margin: 20px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.out {
+    padding: 20px;
+    width: 400px;
+    margin: 20px;
+    background-color: #79AD36;
+    color: white;
+    border-radius: 25px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.up {
+    display: flex;
+    align-items: center;
+}
+
+.button-up {
+    height: 30px;
+    padding: 10px;
+    width: 500px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+
+.button-down {
+    height: 30px;
+    padding: 10px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
